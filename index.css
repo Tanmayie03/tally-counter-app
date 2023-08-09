@@ -1,0 +1,85 @@
+body{
+   background-color:#464653; 
+   font-size: 14px;
+   color: white;
+   margin: 15px;  
+}
+.navbar .navbar-nav .nav-link{
+    color: white;
+    position: relative;
+}
+.navbar .navbar-nav .nav-link:hover{
+    background-color: #34343d;
+    border-radius: 20px;
+    color: #53D690;
+    margin: 0px;
+    padding: 7px 15px;
+    
+}
+.navbar .navbar-nav .nav-link.active{
+    color: #53D690;
+    background-color: #34343d;
+    border-radius: 20px;
+    padding: 7px 15px;
+
+} 
+.input-icon{
+    color: grey;
+    stroke: grey;
+}
+.input-icon:hover{
+    stroke: #4bc182;
+}
+.bton {  
+    border-top: 1px solid rgba(136, 137, 138, 0.605);
+}
+.bton .bton2{
+    border-bottom: none;
+    border-right: none;
+    border-left: 1px solid rgba(136, 137, 138, 0.605);
+    border-top: 0px solid rgba(136, 137, 138, 0.605);
+
+}
+
+.green-color {
+    color:#4bc182;
+}
+.navbar {
+    height: 90px; /* Adjust the height as needed */
+}
+.navbar-toggler , .btn-toggler {
+    position: relative;
+    z-index: 1000;
+    outline: none;
+}
+.content {
+    margin-top: 70px; /* Adjust the margin as needed to match the navbar height */
+}
+  
+.navbar-navb .navb-link {
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-decoration: none;
+}
+.navbar-navb{
+    transition-duration: 0ms;
+}
+.btn-btnn .btnn-link{
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    color: rgba(40, 40, 40, 0.858);
+    text-decoration: none;   
+}
+
+#heading{
+    font-size: 220px;
+}
+.dot:hover{
+    color: #53D690;
+    stroke: #4bc182;
+
+}
+.feather:hover{
+    stroke: #4bc182;
+}
